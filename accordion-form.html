@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html> 
+<head>
+        <meta charset="UTF-8">
+        <title>Bootstrap</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="assets/CSS/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/CSS/template.css"/>
+        
+        
+</head>  
+
+<body>
+      <div class="container">
+              <button class="btn btn-primary" data-toggle="collapse" data-target="#area">Mostar/Esconder</button>
+              <div class="alert-danger collapse" id="area">Texto escondido que irá aparecer</div>
+      </div>
+
+      <div class="container">
+
+      <div id="accordion">
+
+              <div class="card">
+                      <div class="card-header">
+                              <button class="btn btn-link" data-toggle="collapse" data-target="#c1" >Título do card</button>
+                        </div>
+                        <div id="c1" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">Texto sobre card</div>   
+                        </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#c2">Título do card2</button>
+                  </div>
+                  <div id="c2" class="collapse" data-parent="#accordion">
+                          <div class="card-body">Texto sobre card</div>   
+                  </div>       
+              </div>
+              <div class="card">
+                <div class="card-header">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#c3" >Título do card3</button>
+                  </div>
+                  <div id="c3" class="collapse" data-parent="#accordion">
+                          <div class="card-body">Texto sobre card</div>   
+                  </div>       
+              </div>
+
+      </div>
+
+      <div class="container">
+              <div class="dropdown btn-group">
+                      <a href="" class="btn btn-dark">Instagram</a>
+                      <button href="" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="">Google</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="">Facebook</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="">Youtube</a>
+                      </div>
+              </div>
+      </div>
+
+      <div class="containuer">
+              <form method="POST">
+                      E-mail:</br></br>
+                      <input type="email" name="email" placeholder="Digite o e-mail"/></br></br>
+                      Senha:</br></br>
+                      <input type="password" name="senha" placeholder="Digite a senha"/></br></br>
+                      <input type="submit" value="entrar"/>
+              </form>
+              <hr>
+
+            <form method="POST">
+                <div class="row">
+                        <div class="col">
+                                <div class="form-group">
+                                        <label for="email">E-mail:</label>
+                                        <input id="email" class="form-control" type="email" name="email" placeholder="Digite o e-mail"/>
+                                </div>
+                        </div>
+                        <div class="col">
+                                <div class="form-group">
+                                        <label for="senha">Senha</label>
+                                        <input id="senha" class="form-control" type="password" name="senha" placeholder="Digite a senha"/>
+                                </div>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col">
+                                <div class="form-group">
+                                        <input class="btn btn-primary" type="submit" value="entrar"/>
+                                </div>
+                        </div>
+                </div>
+               
+            </form>
+      </div>
+
+
+      </div>
+
+
+
+        <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" ></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" ></script>
+</body>
+
+
+</html>
