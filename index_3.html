@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html> 
+<head>
+        <meta charset="UTF-8">
+        <title>Bootstrap</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="assets/CSS/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/CSS/template.css"/>
+        
+        
+</head>  
+
+<body>
+      <div class="container">
+              <button class="btn btn-primary" data-toggle="collapse" data-target="#area">Mostar/Esconder</button>
+              <div class="alert-danger collapse" id="area">Texto escondido que irá aparecer</div>
+      </div>
+
+      <div class="container">
+
+      <div id="accordion">
+
+              <div class="card">
+                      <div class="card-header">
+                              <button class="btn btn-link" data-toggle="collapse" data-target="#c1" >Título do card</button>
+                        </div>
+                        <div id="c1" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">Texto sobre card</div>   
+                        </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#c2">Título do card2</button>
+                  </div>
+                  <div id="c2" class="collapse" data-parent="#accordion">
+                          <div class="card-body">Texto sobre card</div>   
+                  </div>       
+              </div>
+              <div class="card">
+                <div class="card-header">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#c3" >Título do card3</button>
+                  </div>
+                  <div id="c3" class="collapse" data-parent="#accordion">
+                          <div class="card-body">Texto sobre card</div>   
+                  </div>       
+              </div>
+
+
+
+      </div>
+
+      </div>
+
+
+
+        <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js" ></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js" ></script>
+</body>
+
+
+</html>
